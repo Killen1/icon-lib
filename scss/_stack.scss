@@ -1,0 +1,17 @@
+.#{$program-prefix}-stack {
+  position: relative;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.#{$program-prefix}-stack-1x {
+   position: absolute;
+   left: 0;
+   width: 100%;
+   text-align: center;
+}
+.#{$program-prefix}-stack-1x {
+  line-height: inherit;
+}

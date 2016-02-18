@@ -1,0 +1,10 @@
+# no need for these #
+readme.html
+license.txt
+*.log
+npm-debug.log
+.DS_Store
+.ht*
+.idea
+node_modules
+.sass-cache

@@ -1,0 +1,14 @@
+/*
+ * FONT PATH
+ */
+
+@font-face {
+  font-family: 'program-icons';
+  src: url('#{$font-path}/mw-icons.eot');
+  src: url('#{$font-path}/mw-icons.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/mw-icons.woff') format('woff'),
+  url('#{$font-path}/mw-icons.ttf') format('truetype'),
+  url('#{$font-path}/mw-icons.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

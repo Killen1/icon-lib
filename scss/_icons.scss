@@ -1,0 +1,16 @@
+//Constant
+.#{$program-prefix}{
+  font-family: 'mw-icons';
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  font-style: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+//background circle
+.#{$program-prefix}-circle:before {
+ content: $program-var-circle;
+}
