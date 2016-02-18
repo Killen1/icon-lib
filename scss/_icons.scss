@@ -1,6 +1,6 @@
 //Constant
-.#{$program-prefix}{
-  font-family: 'mw-icons';
+.#{$prefix}{
+  font-family: $font-fam;
   speak: none;
   font-weight: normal;
   font-variant: normal;
@@ -11,6 +11,6 @@
 }
 
 //background circle
-.#{$program-prefix}-circle:before {
- content: $program-var-circle;
+.#{$prefix}-circle:before {
+ content: $pre-var-circle;
 }

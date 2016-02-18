@@ -3,12 +3,12 @@
  */
 
 @font-face {
-  font-family: 'program-icons';
-  src: url('#{$font-path}/mw-icons.eot');
-  src: url('#{$font-path}/mw-icons.eot?#iefix') format('embedded-opentype'),
-  url('#{$font-path}/mw-icons.woff') format('woff'),
-  url('#{$font-path}/mw-icons.ttf') format('truetype'),
-  url('#{$font-path}/mw-icons.svg') format('svg');
+  font-family: $font-fam;
+  src: url('#{$font-path}/#{$font-pack}.eot');
+  src: url('#{$font-path}/#{$font-pack}.eot?#iefix') format('embedded-opentype'),
+  url('#{$font-path}/#{$font-pack}.woff') format('woff'),
+  url('#{$font-path}/#{$font-pack}.ttf') format('truetype'),
+  url('#{$font-path}/#{$font-pack}.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
